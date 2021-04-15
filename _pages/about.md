@@ -23,4 +23,4 @@ Publications
 
 For more info
 ------
-Please visit homepage of our lab, or contact me via email <xinge.yang@kaust.edu.sa>.
+Please visit homepage of [our lab](https://vccimaging.org/), or contact me via email <xinge.yang@kaust.edu.sa>.
