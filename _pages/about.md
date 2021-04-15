@@ -8,10 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am now a MS/PhD student at [VCC](https://cemse.kaust.edu.sa/vcc)(Visual Computing Center) @ [KAUST](https://www.kaust.edu.sa/en), KSA supervised by prof.[Wolfgang Heidrich](https://vccimaging.org/People/heidriw/). My research interests include deep learning and co-design of optics and algorithms. Before that, I got my Bachelor degree on physics and computer science at [USTC, China](https://en.ustc.edu.cn/).
+I am a computer science MS/PhD student (Sep 2020 - ) in [VCC](https://cemse.kaust.edu.sa/vcc) (Visual Computing Center) at [KAUST](https://www.kaust.edu.sa/en), KSA, supervised by [Prof. Wolfgang Heidrich](https://vccimaging.org/People/heidriw/). My research interests include deep learning and co-design of optics and algorithms. Prior to KAUST, I obtained my Bachelor degree on physics and computer science at [USTC](https://en.ustc.edu.cn/), China.
 
+News
+------
 
+Publications
+------
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Please visit homepage of our lab, or contact me via email <xinge.yang@kaust.edu.sa>.
