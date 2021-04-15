@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am now a MS/PhD student at VCC(Visual Computing Center) @ KAUST, KSA supervised by prof.Wolfgang Heidrich. My research interests include deep learning and co-design of optical elements and image reconstruction networks. Before that, I got my Bachelor degree on physics and computer science at USTC, China.
+I am now a MS/PhD student at [VCC](https://cemse.kaust.edu.sa/vcc)(Visual Computing Center) @ [KAUST](https://www.kaust.edu.sa/en), KSA supervised by [prof.Wolfgang Heidrich](https://vccimaging.org/People/heidriw/). My research interests include deep learning and co-design of optics and algorithms. Before that, I got my Bachelor degree on physics and computer science at [USTC, China](https://en.ustc.edu.cn/).
 
 
 
