@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<!-- new style https://github.com/jonbarron/website -->
+
 
 About Me
 ------
