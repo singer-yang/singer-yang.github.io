@@ -13,14 +13,17 @@ redirect_from:
 
 About Me
 ------
-I am a computer science MS/PhD student (Sep 2020 - present) in [VCC Imaging Group](https://vccimaging.org) at [KAUST](https://www.kaust.edu.sa/en), supervised by Prof. [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/). My research interests include differentiable ray-tracing, automatic optics design, differentiable rendering and End2End computer visions. Prior to this, I obtained my Bachelor degree on physics and computer science at [USTC](https://en.ustc.edu.cn/). My previous research experience lies on quantum optics and wireless communication. 
+I am a computer science PhD student (Mar 2022 - present) in [VCC Imaging Group](https://vccimaging.org) at [KAUST](https://www.kaust.edu.sa/en), supervised by Prof. [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/). My research interests include differentiable ray-tracing/rendering, automatic optics design, and computational imaging. 
 
-In my free time, I like photograph(see my photos on [instagram](https://instagram.com/singeryang.cn)), backetball and travelling. I was a marathon runner(personal record: half-marathon - 79mins, marathon - 3h01min) and a hiker(more than 10 mountain/routes) in the past.  
+<!-- I have worked on DiffLens -->
+
+I obtained my Bachelor degree on physics(major) and computer science(minor) at [USTC](https://en.ustc.edu.cn/). My previous research experience lies on quantum optics and wireless communication. In my free time, I like backetball, travelling and photography. I was a marathon runner(personal record: half-marathon - 79mins, marathon - 3h01min) and a hiker in the past.  
 
 News
 ------
 
-**01-Feb-2022:** I will graduate as a Master studetn this spring.
+**31-Mar-2022:** I passed Master Thesis defense on "Automatic Lens Design based on Differentiable Ray-tracing"!  
+**01-Sep-2020:** I started Master program at KAUST!
 
 Publications
 ------
