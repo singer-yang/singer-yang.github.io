@@ -124,26 +124,26 @@
             </td>
           </tr> -->
 
-          <tr onmouseout="hdrp_stop()" onmouseover="hdrp_start()">
+          <tr onmouseout="deeplens_optica_stop()" onmouseover="deeplens_optica_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='deeplens_image_full'><img src='images/deeplens2.jpg'></div>
+                <div class="two" id='deeplens_optica'><img src='images/deeplens2.jpg'></div>
                 <img src='images/deeplens1.jpg'>
               </div>
               <script type="text/javascript">
-                function hdrp_start() {
-                  document.getElementById('deeplens_image_full').style.opacity = "1";
+                function deeplens_optica_start() {
+                  document.getElementById('deeplens_optica').style.opacity = "1";
                 }
 
-                function hdrp_stop() {
-                  document.getElementById('deeplens_image_full').style.opacity = "0";
+                function deeplens_optica_stop() {
+                  document.getElementById('deeplens_optica').style.opacity = "0";
                 }
-                hdrp_stop()
+                deeplens_optica_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/2302.01089">
-                  <papertitle>Automatic Lens Design based on Differentiable Ray-tracing</papertitle>
+                  <papertitle>Curriculum Learning for ab initio Deep Learned Refractive Optics</papertitle>
                 </a>
               <br>
               <a href="https://singer-yang.github.io/">Xinge Yang</a>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
