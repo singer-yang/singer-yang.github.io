@@ -22,7 +22,7 @@
               </p>
               <p>I am a computer science Ms/PhD student (Aug 2020 - present) in <a href="https://vccimaging.org">VCC Computational Imaging Group</a>
                 at <a href="https://www.kaust.edu.sa/en">KAUST</a>, supervised by <a href="https://vccimaging.org/People/heidriw/">Prof. Wolfgang Heidrich</a>.
-                I am currently working on differentiable lens design and computational imaging.
+                I am currently working on computational lens design with differentiable ray-tracing.
               </p>
               <p>
                 I obtained my Bachelor degree on physics(major) and computer science(minor) at <a href="https://en.ustc.edu.cn/">USTC</a>, 
@@ -55,11 +55,12 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <p>
+              <li>03/02/2023: The DeepLens paper, <b>"Curriculum Learning for ab initio Deep Learned Refractive Optics"</b> is avaliable on Arxiv. <a href="https://arxiv.org/abs/2302.01089">paper link</a>.</li>
               <li>06/01/2023: Happy new year! Please have a look at <a href="https://github.com/singer-yang/awesome-deep-optics">"awesome-deep-optics" </a> repo if you are intested in optics and network co-design. </li>
               <li>20/06/2022: I will give a presentation at COSI conference about our automatic lens design project. Time: 14:15-14:30, Pacific Time, UTC -7:00. Location: Hyatt Regency Vancouver.</li>
-              <li>05/05/2022: Our paper <em>Automatic Lens Design based on Differentiable Ray-tracing</em> is accepted by COSI, see you in Vancouver again!</li>
+              <li>05/05/2022: Our paper <b>"Automatic Lens Design based on Differentiable Ray-tracing"</b> is accepted by COSI, see you in Vancouver again!</li>
               <li>26/04/2022: I got the opportunity from my advisor to attend Siggraph this year, see you in Vancouvar!</li>
-              <li>31/03/2022: I defended Master thesis <em>Automatic Lens Design based on Differentiable Ray-tracing</em>! </li>
+              <li>31/03/2022: I defended my Master thesis <b>"Automatic Lens Design based on Differentiable Ray-tracing"</b>! </li>
               <li>01/09/2020: I started Master program at KAUST!</li>
             </p>
           </td>
@@ -70,7 +71,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am interested in co-design of optics and image processing. I am maintaining a differentiable ray tracer "DeepLens" and aim at creating a general end-to-end computational lens design framework.
+                I am interested in co-design of optics and image processing network. I am maintaining a differentiable ray tracer "DeepLens" and aim at creating a general end-to-end computational lens design framework.
               </p>
             </td>
           </tr>
@@ -123,6 +124,41 @@
             </td>
           </tr> -->
 
+          <tr onmouseout="hdrp_stop()" onmouseover="hdrp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='deeplens_image'><img src='images/deeplens2.jpg'></div>
+                <img src='images/deeplens1.jpg'>
+              </div>
+              <script type="text/javascript">
+                function hdrp_start() {
+                  document.getElementById('deeplens_image').style.opacity = "1";
+                }
+
+                function hdrp_stop() {
+                  document.getElementById('deeplens_image').style.opacity = "0";
+                }
+                hdrp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2302.01089">
+                  <papertitle>Automatic Lens Design based on Differentiable Ray-tracing</papertitle>
+                </a>
+              <br>
+              <a href="https://singer-yang.github.io/">Xinge Yang</a>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+              <br>
+              <em>Arxiv prepint </b></em>
+              <br>
+              <!-- <a href="http://hdrplusdata.org/">project page</a> /
+              <a href="https://drive.google.com/open?id=15EUuSDi1BtHUgQCaiooVrD44qYKIC3vx">supplement</a> /
+              <a href="data/Hasinoff2016.bib">bibtex</a> -->
+              <p></p>
+              <p>Full paper. Automatically design computatoinal lenses (extended-depth-of-field from 20cm to 10m) from scratch with differentiable ray tracing.</p>
+              <!-- <p>This technology is used by the <a href="https://research.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">Nexus HDR+</a> feature.</p> -->
+            </td>
+          </tr>
+
 
           <tr onmouseout="hdrp_stop()" onmouseover="hdrp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -154,7 +190,7 @@
               <a href="https://drive.google.com/open?id=15EUuSDi1BtHUgQCaiooVrD44qYKIC3vx">supplement</a> /
               <a href="data/Hasinoff2016.bib">bibtex</a> -->
               <p></p>
-              <p>Use differentiable rendering for fully automatic lens design from scratch.</p>
+              <p>Preliminary version. Use differentiable ray tracing for fully automatic lens design from scratch.</p>
               <!-- <p>This technology is used by the <a href="https://research.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">Nexus HDR+</a> feature.</p> -->
             </td>
           </tr>
