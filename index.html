@@ -127,16 +127,16 @@
           <tr onmouseout="hdrp_stop()" onmouseover="hdrp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='deeplens_image'><img src='images/deeplens2.jpg'></div>
+                <div class="two" id='deeplens_image_full'><img src='images/deeplens2.jpg'></div>
                 <img src='images/deeplens1.jpg'>
               </div>
               <script type="text/javascript">
                 function hdrp_start() {
-                  document.getElementById('deeplens_image').style.opacity = "1";
+                  document.getElementById('deeplens_image_full').style.opacity = "1";
                 }
 
                 function hdrp_stop() {
-                  document.getElementById('deeplens_image').style.opacity = "0";
+                  document.getElementById('deeplens_image_full').style.opacity = "0";
                 }
                 hdrp_stop()
               </script>
