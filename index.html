@@ -124,6 +124,42 @@
             </td>
           </tr> -->
 
+          <tr onmouseout="aat_dff_stop()" onmouseover="aat_dff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='aat_dff'><img src='images/aat_dff1.png'></div>
+                <img src='images/aat_dff2.png'>
+              </div>
+              <script type="text/javascript">
+                function aat_dff_start() {
+                  document.getElementById('aat_dff').style.opacity = "1";
+                }
+
+                function aat_dff_stop() {
+                  document.getElementById('aat_dff').style.opacity = "0";
+                }
+                aat_dff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2303.04654">
+                  <papertitle>Curriculum Learning for ab initio Deep Learned Refractive Optics</papertitle>
+                </a>
+              <br>
+              <a href="https://singer-yang.github.io/">Xinge Yang</a>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a href="http://www.mohamed-elhoseiny.com/">Mohamed Elhoseiny</a>, <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+              <br>
+              <em>Arxiv prepint.</b> <a href=https://arxiv.org/abs/2303.04654>link</a></em>
+              <br>
+              <!-- <a href="http://hdrplusdata.org/">project page</a> /
+              <a href="https://drive.google.com/open?id=15EUuSDi1BtHUgQCaiooVrD44qYKIC3vx">supplement</a> /
+              <a href="data/Hasinoff2016.bib">bibtex</a> -->
+              <p></p>
+              <p>Considering optical aberrations during network training can improve the generalizability.</p>
+              <!-- <p>This technology is used by the <a href="https://research.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">Nexus HDR+</a> feature.</p> -->
+            </td>
+          </tr>
+
+
           <tr onmouseout="deeplens_optica_stop()" onmouseover="deeplens_optica_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
