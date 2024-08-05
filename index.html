@@ -26,7 +26,7 @@
               </p>
 
               <p>
-                I like cats, cameras, new techs, and most of sports (especially basketball, hiking and marathon). I have lived in China, Singapore, Saudi Arabia, and the US. 
+                I like cats, cameras, new techs, and most of sports (especially basketball and water sports). I have lived in China, Singapore, Saudi Arabia, and the US. 
               </p>
 
               <p>
@@ -87,6 +87,7 @@
             <heading>Experience</heading>
             <p>
               <li style="padding-bottom:5px">05/2022 - present: Ph.D. student in Computer Science, KAUST, Thuwal, Saudi Arabia.</li>
+              <li style="padding-bottom:5px">07/2024 - present: Research Scientist Intern, Camera & Depth Team, Meta Reality Lab, Sunnyvale, CA.</li>
               <li style="padding-bottom:5px">10/2023 - 01/2024: Research Scientist Intern, Optics and Display Research, Meta Reality Lab, Redmond, WA.</li>
               <li style="padding-bottom:5px">08/2020 - 05/2022: M.Sc. in Computer Science, KAUST, Thuwal, Saudi Arabia.</li>
               <li style="padding-bottom:5px">09/2016 - 06/2020: B.Sc. in Physics (major) and Computer Science (minor), USTC, Hefei, China.</li>
@@ -156,6 +157,39 @@
               <p>NeRF works better than RGB-D cameras or multi-view stereo when learning object descriptors.</p>
             </td>
           </tr> -->
+
+          <tr onmouseout="hybridlens_stop()" onmouseover="hybridlens_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hybridlens'><img src='images/hybridlens2.jpg'></div>
+                <img src='images/hybridlens1.jpg'>
+              </div>
+              <script type="text/javascript">
+                function hybridlens_start() {
+                  document.getElementById('hybridlens').style.opacity = "1";
+                }
+                function hybridlens_stop() {
+                  document.getElementById('hybridlens').style.opacity = "0";
+                }
+                hybridlens_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2406.00834">
+                  <papertitle>End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model</papertitle>
+                </a>
+              <br>
+              <a href="https://singer-yang.github.io/">Xinge Yang</a>, <a href="https://matheusvms.github.io/">Matheus Souza</a>, <a href="https://scholar.google.com/citations?user=D4xDAlUAAAAJ&hl=en">Kunyi Wang</a>, <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula</a>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+              <br>
+              <em>Arxiv prepint.</b> <a href="https://arxiv.org/abs/2406.00834">paper</a>, <a href="papers/HybridLens.pdf">pdf</a>, <a href="papers/HybridLens_supp.pdf">supp</a></em>
+              <br>
+              <p></p>
+              <p>
+                <li><b>A new differentiable ray-tracing and wave-propagation model.</b></li>
+                <li> End-to-End lens design for hybrid refractive-diffractive lenses with two real-world prototypes.</li>
+              </p>
+            </td>
+          </tr>
           
           <tr onmouseout="tasklens_stop()" onmouseover="tasklens_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -250,7 +284,7 @@
               <br>
               <a href="https://singer-yang.github.io/">Xinge Yang</a>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
               <br>
-              <em>Arxiv prepint.</b> <a href='papers/AutoLens.pdf'>paper</a>, <a href='papers/AutoLens_supp.pdf'>supp</a>, <a href=https://github.com/singer-yang/DeepLens>code</a>, <a href=https://youtu.be/32XuSyM-J-8>video</a></em>
+              <em>Nature Communications 2024.</b> <a href="https://www.nature.com/articles/s41467-024-50835-7">paper</a>, <a href='papers/DeepLens.pdf'>pdf</a>, <a href='papers/DeepLens_supp.pdf'>supp</a>, <a href=https://github.com/singer-yang/DeepLens>code</a>, <a href=https://youtu.be/32XuSyM-J-8>video</a></em>
               <br>
               <em>OSA Imaging and Applid Optics Congress - Computational Optical Sensing and Imaging (COSI) 2022 (oral): <a href=https://opg.optica.org/abstract.cfm?uri=COSI-2022-CTh4C.2>paper</a>, <a href=https://vccimaging.org/Publications/Yang2022AutoLens/>project</a>, <a href=https://github.com/singer-yang/AutoLens>code</a></em>
               <br>
