@@ -180,6 +180,41 @@
               </tr>
 
               <!-- ============================================================================== -->
+              <tr onmouseout="defocusdeblur_stop()" onmouseover="defocusdeblur_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='defocusdeblur'><img src='images/defocusdeblur_2.jpg'></div>
+                    <img src='images/defocusdeblur_1.jpg'>
+                  </div>
+                  <script type="text/javascript">
+                    function defocusdeblur_start() {
+                      document.getElementById('defocusdeblur').style.opacity = "1";
+                    }
+                    function defocusdeblur_stop() {
+                      document.getElementById('defocusdeblur').style.opacity = "0";
+                    }
+                    defocusdeblur_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="#">
+                    <papertitle>Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur
+                    </papertitle>
+                  </a>
+                  <br>
+                  <b>Xinge Yang</b>, Chuong Nguyen, Wenbin Wang, Kaizhang Kang, Wolfgang Heidrich, Ginger Li
+                  <br>
+                  <em>ICCV Workshop 2025.</b> 
+                  <a href="#">Paper (Arxiv, coming soon)</a> / <a href="#">Paper (PDF, coming soon)</a> / <a href="#">Supp (PDF, coming soon)</a> / <a href="#">Code (coming soon)</a></em>
+                  <br>
+                  <p></p>
+                  <p>
+                    <li>Efficient and practical synthetic dataset validated by real cameras.</li>
+                  </p>
+                </td>
+              </tr>
+
+              <!-- ============================================================================== -->
               <tr onmouseout="hybridlens_stop()" onmouseover="hybridlens_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
