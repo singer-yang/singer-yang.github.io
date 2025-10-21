@@ -62,50 +62,6 @@
           </table>
           <!-- Introduction ------------------------------------------------------------ -->
 
-
-          <!-- News ------------------------------------------------------------ -->
-          <!-- <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>News</heading>
-                  <p>
-                    <li>11/2024: I will attend Siggraph Asia this year, see you in Tokyo.</li>
-                    <li>08/2024: <b>"Curriculum Learning for ab initio Deep Learned Refractive Optics"</b> is acceptted
-                      by <b>
-                        <font color="1772d0">Nature Communications</font>
-                      </b>!</li>
-                    <li>03/2024: <a href="https://github.com/singer-yang/DeepLens">DeepLens</a> is open-sourced, build
-                      your End-to-End lens design pipeline with 5 lines of Python code!</li>
-                    <li>10/2023: I started my internship at Meta, working on gradient-based optical design for AR
-                      waveguide.</li>
-                    <li>09/2023: We released an automated lens design demo <a
-                        href="https://github.com/singer-yang/AutoLens">AutoLens </a>. </li>
-                    <li>07/2023: Our paper, <b>"Aberration-Aware Depth-from-Focus"</b> is accepted by <b>
-                        <font color="1772d0">ICCP</font>
-                      </b> and <b>
-                        <font color="1772d0">TPAMI</font>
-                      </b>.</li> -->
-                    <!-- <li>05/2023: Our paper <b>"Image Quality Is Not All You Want: Task-Driven Lens Design for Image Classification"</b> is avaliable on <a href="https://arxiv.org/abs/2305.17185">Arxiv</a>. </li> -->
-                    <!-- <li>05/2023: I will attend Siggraph this year, see you in LA!</li> -->
-                    <!-- <li><del>21/03/2023: I will attend CVPR this year, see you in Vancouver!</del></li> -->
-                    <!-- <li>09/03/2023: Our paper, <b>"Aberration-Aware Depth-from-Focus"</b> is avaliable on Arxiv. <a href="https://arxiv.org/abs/2303.04654">paper link</a>.</li> -->
-                    <!-- <li>02/2023: The DeepLens paper, <b>"Curriculum Learning for ab initio Deep Learned Refractive Optics"</b> is avaliable on Arxiv. <a href="https://arxiv.org/abs/2302.01089">paper link</a>.</li> -->
-                    <!-- <li>01/2023: Happy new year! Please have a look at <a href="https://github.com/singer-yang/awesome-deep-optics">"awesome-deep-optics" </a> repo if you are intested in optics and network co-design. </li> -->
-                    <!-- <li>06/2022: I will give a presentation at COSI conference about our automatic lens design project. Time: 14:15-14:30, Pacific Time, UTC -7:00. Location: Hyatt Regency Vancouver.</li> -->
-                    <!-- <li>05/2022: Our paper <b>"Automatic Lens Design based on Differentiable Ray-tracing"</b> is accepted by OSA Imaging Congress - COSI, see you in Vancouver!</li> -->
-                    <!-- <li>04/2022: I got the opportunity from my advisor to attend Siggraph this year, see you in Vancouvar!</li> -->
-                    <!-- <li>03/2022: I defended my Master thesis <b>"Automatic Lens Design based on Differentiable Ray-tracing"</b>! </li> -->
-                    <!-- <li>09/2020: I started Master program at KAUST!</li> -->
-                  <!-- </p>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
-          <!-- News ------------------------------------------------------------ -->
-
-
           <!-- Education ------------------------------------------------------------ -->
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -202,11 +158,11 @@
                   <b>Xinge Yang</b>, Chuong Nguyen, Wenbin Wang, Kaizhang Kang, Wolfgang Heidrich, Ginger Li
                   <br>
                   <em>ICCV Workshop 2025.</b>
-                  <a href="https://arxiv.org/abs/2507.00372">Paper (Arxiv)</a> / <a href="#">Paper (PDF, coming soon)</a> / <a href="#">Supp (PDF, coming soon)</a></em>
+                  <a href="https://arxiv.org/abs/2507.00372">Paper (Arxiv)</a> / <a href="./papers/EfficientDepthAndSpatiallyVaryingImageSimulationForDefocusDeblur.pdf">Paper (PDF)</a> / <a href="./papers/EfficientDepthAndSpatiallyVaryingImageSimulationForDefocusDeblur_supp.pdf">Supp (PDF)</a></em>
                   <br>
                   <p></p>
                   <p>
-                    <li>Efficient and practical synthetic dataset validated by real cameras.</li>
+                    <li>Efficient and accurate synthetic dataset for real camera defocus deblur without any fine-tuning.</li>
                   </p>
                 </td>
               </tr>
@@ -246,8 +202,7 @@
                   <br>
                   <p></p>
                   <p>
-                    <li>Differentiable ray-tracing and wave-propagation model.</li>
-                    <li>End-to-End hybrid refractive-diffractive lenses design with prototypes.</li>
+                    <li>Differentiable ray-wave optical model for end-to-end hybrid refractive-diffractive lens design.</li>
                   </p>
                 </td>
               </tr>
@@ -273,7 +228,7 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2305.17185">
-                    <papertitle>Image Quality Is Not All You Want: Task-Driven Lens Design for Image
+                    <papertitle>Task-Driven Lens Design for Image
                       Classification</papertitle>
                   </a>
                   <br>
@@ -287,8 +242,7 @@
                   <br>
                   <p></p>
                   <p>
-                    <li>A new End-to-End optical design methedology: a well-trained network as objective.</li>
-                    <li>TaskLens: better computer vision performance with fewer lens elements.
+                    <li>Novel lens design objective leveraging a well-trained network to improve computer vision performance with fewer elements.</li>
                   </p>
                 </td>
               </tr>
@@ -328,10 +282,7 @@
                   <br>
                   <p></p>
                   <p>
-                    <li>An implicite network for real-lens spatially-varying focus-dependent (4D) PSFs representation.
-                    </li>
-                    <li>Generalize depth-from-focus network from synthetic data to real data by considering optical
-                      aberrations.
+                    <li>Neural PSF representation for accelerated and accurate synthetic data with aberrations and defocus for depth from focus.</li>
                   </p>
                 </td>
               </tr>
@@ -368,13 +319,9 @@
                       href=https://github.com/singer-yang/DeepLens>Code</a> / <a
                       href=https://youtu.be/32XuSyM-J-8>Video</a></em>
                   <br>
-                  <!-- <em>OSA Imaging and Applid Optics Congress - Computational Optical Sensing and Imaging (COSI) 2022 (oral): <a href=https://opg.optica.org/abstract.cfm?uri=COSI-2022-CTh4C.2>paper</a>, <a href=https://vccimaging.org/Publications/Yang2022AutoLens/>project</a>, <a href=https://github.com/singer-yang/AutoLens>code</a></em> -->
-                  <!-- <br> -->
                   <p></p>
                   <p>
-                    <li>Automated lens design from scratch with differentiable ray tracing.</li>
-                    <li>DeepLens framework for (1) differentiable ray tracing simulation, (2) end-to-end lens-network
-                      co-design.</li>
+                    <li>First work to demonstrate the superior optimization capability of differentiable optics by automatically designing lenses from scratch.</li>
                   </p>
                 </td>
               </tr>
@@ -407,7 +354,7 @@
                   <br>
                   <p></p>
                   <p>
-                    <li>Considering lens manufacturing tolerances in end-to-end lens design.</li>
+                    <li>Considering lens manufacturing tolerances in end-to-end lens design for better optical and computer vision robustness.</li>
                   </p>
                 </td>
               </tr>
@@ -434,8 +381,7 @@
                   <br>
                   <p></p>
                   <p>
-                    <li>Differentiable edge shape defined lens surface optimization.</li>
-                    <li>Fast prototyping with fluidic manufacturing.</li>
+                    <li>Differentiable optimization of liquid surface shapes and manufacturing for rapid prototyping.</li>
                   </p>
                 </td>
               </tr>
@@ -475,8 +421,9 @@
               <tr>
                 <td style="padding:0px">
                   <br>
-                  <p style="text-align:right;font-size:small;">
-                    The website template is from <a href="https://jonbarron.info/">Dr. John Barron</a>.
+                  <p style="display:flex;justify-content:space-between;font-size:small;">
+                    <span>Last updated: 10/21/2025</span>
+                    <span>The website template is from <a href="https://jonbarron.info/">Dr. John Barron</a>.</span>
                   </p>
                 </td>
               </tr>
