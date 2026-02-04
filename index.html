@@ -180,6 +180,44 @@
               </tr>
 
               <!-- ============================================================================== -->
+              <tr onmouseout="tasklens_stop()" onmouseover="tasklens_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='tasklens'><img src='images/tasklens2.jpg'></div>
+                    <img src='images/tasklens1.jpg'>
+                  </div>
+                  <script type="text/javascript">
+                    function tasklens_start() {
+                      document.getElementById('tasklens').style.opacity = "1";
+                    }
+
+                    function tasklens_stop() {
+                      document.getElementById('tasklens').style.opacity = "0";
+                    }
+                    tasklens_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2305.17185">
+                    <papertitle>Task-Driven Lens Design</papertitle>
+                  </a>
+                  <br>
+                  <b>Xinge Yang</b>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a
+                    href="https://www.b-phot.org/team/yunfeng-nie">Yunfeng Nie</a>, <a
+                    href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+                  <br>
+                  <em>Optics Express 2026. <a href="https://arxiv.org/abs/2305.17185">Paper (arXiv)</a> / <a
+                      href="papers/TaskLens.pdf">Paper (PDF)</a> / <a href="papers/TaskLens_supp.pdf">Supp
+                      (PDF)</a></em>
+                  <br>
+                  <ul style="margin:0; padding-left:20px;">
+                    <li>Task-driven lens design objective using a well-trained network to improve computer vision performance (image classification, object detection, and vision-language models).
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+
+              <!-- ============================================================================== -->
               <tr onmouseout="defocusdeblur_stop()" onmouseover="defocusdeblur_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -221,6 +259,45 @@
               </tr>
 
               <!-- ============================================================================== -->
+              <tr onmouseout="aat_dff_stop()" onmouseover="aat_dff_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='aat_dff'><img src='images/aat_dff1.png'></div>
+                    <img src='images/aat_dff2.png'>
+                  </div>
+                  <script type="text/javascript">
+                    function aat_dff_start() {
+                      document.getElementById('aat_dff').style.opacity = "1";
+                    }
+
+                    function aat_dff_stop() {
+                      document.getElementById('aat_dff').style.opacity = "0";
+                    }
+                    aat_dff_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ieeexplore.ieee.org/document/10209238">
+                    <papertitle>Aberration-Aware Depth-from-Focus</papertitle>
+                  </a>
+                  <br>
+                  <b>Xinge Yang</b>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a
+                    href="http://www.mohamed-elhoseiny.com/">Mohamed Elhoseiny</a>, <a
+                    href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+                  <br>
+                  <em>TPAMI 2025. <a href='https://ieeexplore.ieee.org/document/10209238'>Paper (IEEE)</a> /
+                    <a href='papers/AberAwareDfF.pdf'>Paper (PDF)</a> / <a href='papers/AberAwareDfF_supp.pdf'>Supp
+                      (PDF)</a> / <a href=https://vccimaging.org/Publications/Yang2023AATDfF>Project page</a> / <a
+                      href=https://github.com/singer-yang/Aberration-Aware-Depth-from-Focus>Code</a></em>
+                  <br>
+                  <ul style="margin:0; padding-left:20px;">
+                    <li>Efficient and high-fidelity synthetic dataset generation with neural PSF representation for depth estimation from defocus stacks.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+
+              <!-- ============================================================================== -->
               <tr onmouseout="hybridlens_stop()" onmouseover="hybridlens_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -255,83 +332,6 @@
                   <br>
                   <ul style="margin:0; padding-left:20px;">
                     <li>Differentiable ray-wave optical model for hybrid refractive-diffractive lens design with two camera prototypes (extended depth of field and wide field of view).</li>
-                  </ul>
-                </td>
-              </tr>
-
-              <!-- ============================================================================== -->
-              <tr onmouseout="tasklens_stop()" onmouseover="tasklens_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='tasklens'><img src='images/tasklens2.png'></div>
-                    <img src='images/tasklens1.png'>
-                  </div>
-                  <script type="text/javascript">
-                    function tasklens_start() {
-                      document.getElementById('tasklens').style.opacity = "1";
-                    }
-
-                    function tasklens_stop() {
-                      document.getElementById('tasklens').style.opacity = "0";
-                    }
-                    tasklens_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2305.17185">
-                    <papertitle>Task-Driven Lens Design for Image Classification</papertitle>
-                  </a>
-                  <br>
-                  <b>Xinge Yang</b>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a
-                    href="https://www.b-phot.org/team/yunfeng-nie">Yunfeng Nie</a>, <a
-                    href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
-                  <br>
-                  <em>arXiv preprint 2023. <a href="https://arxiv.org/abs/2305.17185">Paper (arXiv)</a> / <a
-                      href="papers/TaskLens.pdf">Paper (PDF)</a> / <a href="papers/TaskLens_supp.pdf">Supp
-                      (PDF)</a></em>
-                  <br>
-                  <ul style="margin:0; padding-left:20px;">
-                    <li>Task-driven lens design objective using a well-trained network to improve computer vision performance (image classification, object detection, and vision-language models).
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-
-              <!-- ============================================================================== -->
-              <tr onmouseout="aat_dff_stop()" onmouseover="aat_dff_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='aat_dff'><img src='images/aat_dff1.png'></div>
-                    <img src='images/aat_dff2.png'>
-                  </div>
-                  <script type="text/javascript">
-                    function aat_dff_start() {
-                      document.getElementById('aat_dff').style.opacity = "1";
-                    }
-
-                    function aat_dff_stop() {
-                      document.getElementById('aat_dff').style.opacity = "0";
-                    }
-                    aat_dff_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://ieeexplore.ieee.org/document/10209238">
-                    <papertitle>Aberration-Aware Depth-from-Focus</papertitle>
-                  </a>
-                  <br>
-                  <b>Xinge Yang</b>, <a href="https://vccimaging.org/People/fuq/">Qiang Fu</a>, <a
-                    href="http://www.mohamed-elhoseiny.com/">Mohamed Elhoseiny</a>, <a
-                    href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
-                  <br>
-                  <em>TPAMI & ICCP 2023. <a href='https://ieeexplore.ieee.org/document/10209238'>Paper (IEEE)</a> /
-                    <a href='papers/AberAwareDfF.pdf'>Paper (PDF)</a> / <a href='papers/AberAwareDfF_supp.pdf'>Supp
-                      (PDF)</a> / <a href=https://vccimaging.org/Publications/Yang2023AATDfF>Project page</a> / <a
-                      href=https://github.com/singer-yang/Aberration-Aware-Depth-from-Focus>Code</a></em>
-                  <br>
-                  <ul style="margin:0; padding-left:20px;">
-                    <li>Efficient and high-fidelity synthetic dataset generation with neural PSF representation for depth estimation from defocus stacks.
-                    </li>
                   </ul>
                 </td>
               </tr>
@@ -395,7 +395,7 @@
                   Jun Dai, Liqun Chen, <b>Xinge Yang</b>, Yuyao Hu, Jinwei Gu, Tianfan Xue
                   <br>
                   <em>arXiv preprint 2025.
-                    <a href="https://arxiv.org/abs/2502.04719">Paper (arXiv)</a>
+                    <a href="https://arxiv.org/abs/2502.04719">Paper (arXiv)</a> / 
                     <a href="https://openimaginglab.github.io/LensTolerance/">Project page</a>
                   </em>
                   <br>
@@ -424,7 +424,7 @@
                   <em>Siggraph Asia 2024.
                     <a
                       href="https://computationalsciences.org/publications/na-2024-fluidic-lenses/na-2024-fluidic-lenses.pdf">Paper
-                      (PDF)</a>,
+                      (PDF)</a> /
                     <a href="https://computationalsciences.org/publications/na-2024-fluidic-lenses.html">Project
                       page</a>
                   </em>
