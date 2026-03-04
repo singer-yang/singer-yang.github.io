@@ -130,3 +130,41 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* ── Mobile responsiveness ───────────────────────────────────────────── */
+@media screen and (max-width: 600px) {
+
+  /* Intro: stack photo below bio text */
+  .intro-section td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Publication rows: stack thumbnail above description */
+  .pub-row td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Center the paper thumbnail on mobile and keep it a reasonable size */
+  .one {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .two {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Footer: allow the two spans to wrap onto separate lines */
+  .footer-text {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+}
