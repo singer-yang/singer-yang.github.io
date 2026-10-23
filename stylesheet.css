@@ -137,6 +137,10 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.intro-section p {
+  line-height: 1.6;
+}
+
 /* ── Mobile responsiveness ───────────────────────────────────────────── */
 @media screen and (max-width: 600px) {
 
@@ -188,10 +192,6 @@ span.highlight {
   .intro-section h1.name {
     text-align: center;
     margin-top: 12px;
-  }
-
-  .intro-section p {
-    line-height: 1.5;
   }
 
   /* Section blocks: consistent 16px side gutters */
